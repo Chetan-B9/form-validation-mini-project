@@ -1,7 +1,7 @@
 
 //   regular Exprssions
 const usernameRegex = /^[a-zA-Z]+$/;
-const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail+\.com$/;
+const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{3,}$/;
 const passwordRegex = /^.{8,}$/;
 
 // the function who decides the form will submit or not 
